@@ -5,9 +5,9 @@ Here you can find mini projects
 Water-Wells - Pyspark
 
 Twitter_Project: 
-  -Pandas
-  -Tweepy / Twitter API
+  - Pandas
+  - Tweepy / Twitter API
   - Matplotlib
 
 Logistics Company:
-  - Apached Airlfow
+  - Apache Airlfow

@@ -2,6 +2,9 @@
 
 I utilized Twitters API via [Tweepy](https://www.tweepy.org/) to access 2,000 tweets since 2020-01-01 that contained the #DataEngineering or #dataengineering hashtag.  I used loops & the Pandas package for Data Transformation & the Matplotlib package for Data Visualization.
 
+## Data Extraction
+I accessed tweets from Twitters API via [Tweepy](https://www.tweepy.org/). I set specific parameters for the tweets I wanted toa analyze and accesed them throught the [Tweepy's Cursor](https://docs.tweepy.org/en/v3.10.0/cursor_tutorial.html).
+
 ## Data Transformation 
 I iterated over each tweet & appended them to list. I iterated over the list of tweets & extracted the hashtags. I noticed that because some tweets had multiple hashtags, they were stored in a list of nested dictionaries. I then iterated over each hashtag in the nested dictionary and appended them to an individual list of hashtags.
 

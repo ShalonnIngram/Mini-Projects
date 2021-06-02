@@ -11,5 +11,4 @@ To analyze tally the hashtags, I put the list of hashtags in to a pandas DataFra
 ## Data Visualization
 Pandas, Matplotlib
 
-![image](https://user-images.githubusercontent.com/32176320/120564444-f1ae0d00-c3d8-11eb-9d2c-e9a84701fa91.png)
 

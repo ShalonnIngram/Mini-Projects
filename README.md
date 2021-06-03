@@ -2,12 +2,12 @@
 Here you can find mini projects
 
 
-Water-Wells - Pyspark
+# Water-Wells - Pyspark
 
-Twitter_Project: 
+# Twitter_Project: 
   - Pandas
   - Tweepy / Twitter API
   - Matplotlib
 
-Logistics Company:
+# Logistics Company:
   - Apache Airlfow

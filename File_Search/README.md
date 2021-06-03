@@ -1,6 +1,6 @@
 # File Search
 
-``` python
+
 Write a script that searches a folder you specify (as well as all its subfolders) on your computer and compiles a list of all .jpg files. The list should contain the complete path of each .jpg file.
 
 If you are feeling bold, create a list containing each type of file extension you find in the folder.

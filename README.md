@@ -7,10 +7,11 @@ Here you can find mini projects
 - Amazon S3
 - Pyspark
 
-## Water-Wells 
-- [Water Wells Project](https://github.com/ShalonnIngram/Mini-Projects/tree/main/Water_Wells_Project)
+## [Water Wells Project](https://github.com/ShalonnIngram/Mini-Projects/tree/main/Water_Wells_Project)
+- Google Colab
+- PySpark
 
-## Twitter Project: 
+## [Twitter Project](https://github.com/ShalonnIngram/Mini-Projects/tree/main/Twitter_Project) 
   - Pandas
   - Tweepy / Twitter API
   - Matplotlib

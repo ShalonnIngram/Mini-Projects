@@ -1,6 +1,3 @@
-# Mini-Projects
-Here you can find mini projects
-
 ## [Fitness Tracker Project](https://github.com/ShalonnIngram/Mini-Projects/tree/main/Fitness_Tracker_Project)
 - Docker : jupyter-pyspark notbook
 - Jupyter Notebook

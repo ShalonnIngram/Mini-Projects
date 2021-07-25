@@ -15,6 +15,11 @@ def rename_files(category):
         prefix = os.path.basename(root)
         for f in files:
             os.rename(os.path.join(root, f), os.path.join(root, "{}_{}_{}".format(prefix, category, f)))
+            
+def move_to_landing(type):                                        
+    for folders, subfolders, filenames in os.walk(PATH):          
+        for filename in filenames:                                
+            shutil.copy(os.path.join(folders, filename), UPDATED) 
   
 
 def move_to_landing(date):

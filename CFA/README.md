@@ -10,3 +10,9 @@ During this step I extracted data from a both a Excel and csv files. In larger w
 After I merged the files, I looked at the data profile to for data standardization and noticed the State field has different various of the state Georgia. 
 
 ![ga_various](https://user-images.githubusercontent.com/32176320/130826687-8ddfc1fa-91f5-457a-8630-b0e74fb896a3.png)
+
+Data Cleansing
+- removed null values
+- removed null columns
+- removed whitespaces
+- removed punctuation

@@ -25,15 +25,17 @@ This data returns a .csv file with the freqency of orders by item name
 # 4. Automation
 To avoid end users from manually running this report, I automated it to run daily at 10:00AM.
 
+- Create the task <br>
 ![Screen Shot 2021-08-25 at 1 10 55 PM](https://user-images.githubusercontent.com/32176320/130837400-132cced8-4843-4d23-b2e0-fdbd318e6f3b.png)
 
-xxxxx
+- Create the action to perform <br>
 
 ![Screen Shot 2021-08-25 at 1 12 50 PM](https://user-images.githubusercontent.com/32176320/130837451-e13f59b4-3ea0-401d-9a1b-de3d29a0684d.png)
 
-xxx
+- Schedule the task <br>
 
 ![Screen Shot 2021-08-25 at 1 13 44 PM](https://user-images.githubusercontent.com/32176320/130837570-e5fc4101-a37c-43ac-a1d3-7c5b533986dd.png)
-
+<br>
+- Result Summary
 
 ![Screen Shot 2021-08-25 at 1 26 11 PM](https://user-images.githubusercontent.com/32176320/130837734-a005bba8-3641-40a1-905c-a736af512168.png)

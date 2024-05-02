@@ -1,6 +1,8 @@
-# Loan Data Project
+# Address Storage 
 
 ## Overview
+This project displays a very common data engineer task. There are multiple csv's (about 8 thousand rows) of address data uploaded to s3 daily. Once the csv file is present, a lambda function is triggered to start a glue job. During the initial setup, I used a glue crawler to crawler & infer the schema of the files in the s3 bucket, created a database & table. Once the glue job is executed, the glue ETL job takes the data, does some aggregation counts, converts the file into parquet, & stores the file in an output s3 bucket for storage. There is an option to query the data via athena is any analysis is needed. 
+
 As a Data Engineer, I was tasked with building an ETL Data Pipeline for the loan department which included analysts and scientists. During discovery, it was uncovered that the analysts where spending hours, downloading, reformatting, and cleaning csv files downloaded from the proprietary system. As the data is growing, this process is no longer viable as the files are becoming too large to open on the analyts computers. The request was to create a pipeline that saves files, automates the cleaning process & make the data accessible for data scientists to perform machine learning models and analysts to continue to find insights.\
 **Data Source**: LendingClub Loan Data 2007 - Q3 2019 (acceptence file) [Kaggle Data Set](https://www.kaggle.com/denychaen/lending-club-loans-rejects-data?select=appl_accepted_20072019Q3.csv)
 

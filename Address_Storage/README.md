@@ -18,8 +18,9 @@ This project displays a very common data engineer task. There are multiple csv's
 
 
 ### 1. AWS S3: Data Storage - Create a AWS S3 Bucket & load file
-- Once the data is loaded into s3, the Lambda function is triggered to begin Glue job[Screenshot 2024-05-02 at 6 20 40 PM](https://github.com/ShalonnIngram/Mini-Projects/assets/32176320/23de0bc8-ec6f-4310-9fe8-40f5269fb9dc) to upload files from a specific directory to an S3 bucket
-![Screen Shot 2021-06-24 at 11 18 03 AM](https://user-images.githubusercontent.com/32176320/123288837-eaf94e00-d4dd-11eb-8477-9a2b0a2761a2.png)
+- Once the data is loaded into s3, the Lambda function is triggered to begin Glue job ![Screenshot 2024-05-02 at 6 20 40 PM](https://github.com/ShalonnIngram/Mini-Projects/assets/32176320/23de0bc8-ec6f-4310-9fe8-40f5269fb9dc)
+ to upload files from a specific directory to an S3 bucket
+![Screenshot 2024-05-02 at 6 24 04 PM](https://github.com/ShalonnIngram/Mini-Projects/assets/32176320/0b836312-ac72-4ed8-977e-b54dc772dd41)
 
 <br>
 

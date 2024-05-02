@@ -39,7 +39,8 @@ This project displays a very common data engineer task. There are multiple csv's
 ![Screenshot 2024-05-02 at 6 32 09 PM](https://github.com/ShalonnIngram/Mini-Projects/assets/32176320/ea28de29-a1e2-4f12-8c35-e75e0f0e09a8)
 
 <br>
-![Screenshot 2024-05-02 at 6 37 05 PM](https://github.com/ShalonnIngram/Mini-Projects/assets/32176320/e4c1f2fe-3e72-4fa4-aef4-2d29395f1a67)
+ 
+ ![Screenshot 2024-05-02 at 6 37 05 PM](https://github.com/ShalonnIngram/Mini-Projects/assets/32176320/e4c1f2fe-3e72-4fa4-aef4-2d29395f1a67)
 
 
 

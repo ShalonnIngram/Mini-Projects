@@ -18,7 +18,8 @@ This project displays a very common data engineer task. There are multiple csv's
 
 
 ### 1. CSV file uploaded to S3 which triggers Lambda function 
-- ![Screenshot 2024-05-02 at 6 36 05 PM](https://github.com/ShalonnIngram/Mini-Projects/assets/32176320/f92dacdf-117e-435b-8d9a-de6e32d4a5e9)
+- ![Screenshot 2024-05-02 at 6 39 14 PM](https://github.com/ShalonnIngram/Mini-Projects/assets/32176320/7af5fee7-f944-4436-a347-2ee77287b294)
+
 
   <br> 
   Once the data is loaded into s3, the Lambda function is triggered to begin Glue job ![Screenshot 2024-05-02 at 6 20 40 PM](https://github.com/ShalonnIngram/Mini-Projects/assets/32176320/23de0bc8-ec6f-4310-9fe8-40f5269fb9dc)

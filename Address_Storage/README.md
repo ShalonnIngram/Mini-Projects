@@ -8,7 +8,7 @@ As a Data Engineer, I was tasked with building an ETL Data Pipeline for the loan
 
 <br>
 
-![Untitled Diagram](https://user-images.githubusercontent.com/32176320/125023790-91e8f880-e04d-11eb-8367-0142c69d5785.png)
+(![Screenshot 2024-05-02 at 6 11 59 PM](https://github.com/ShalonnIngram/Mini-Projects/assets/32176320/e788ad19-0ccf-42ab-bc89-78c4bd069af6))
 
 
 

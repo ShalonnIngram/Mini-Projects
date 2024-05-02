@@ -3,33 +3,28 @@
 ## Overview
 This project displays a very common data engineer task. There are multiple csv's (about 8 thousand rows) of address data uploaded to s3 daily. Once the csv file is present, a lambda function is triggered to start a glue job. During the initial setup, I used a glue crawler to crawler & infer the schema of the files in the s3 bucket, created a database & table. Once the glue job is executed, the glue ETL job takes the data, does some aggregation counts, converts the file into parquet, & stores the file in an output s3 bucket for storage. There is an option to query the data via athena is any analysis is needed. 
 
-As a Data Engineer, I was tasked with building an ETL Data Pipeline for the loan department which included analysts and scientists. During discovery, it was uncovered that the analysts where spending hours, downloading, reformatting, and cleaning csv files downloaded from the proprietary system. As the data is growing, this process is no longer viable as the files are becoming too large to open on the analyts computers. The request was to create a pipeline that saves files, automates the cleaning process & make the data accessible for data scientists to perform machine learning models and analysts to continue to find insights.\
-**Data Source**: LendingClub Loan Data 2007 - Q3 2019 (acceptence file) [Kaggle Data Set](https://www.kaggle.com/denychaen/lending-club-loans-rejects-data?select=appl_accepted_20072019Q3.csv)
-
 <br>
 
-(![Screenshot 2024-05-02 at 6 11 59 PM](https://github.com/ShalonnIngram/Mini-Projects/assets/32176320/e788ad19-0ccf-42ab-bc89-78c4bd069af6))
+![Screenshot 2024-05-02 at 6 11 59 PM](https://github.com/ShalonnIngram/Mini-Projects/assets/32176320/e788ad19-0ccf-42ab-bc89-78c4bd069af6)
 
 
 
 ## Process
-- The file is automatically uploaded to a AWS S3 
-- Data is transformed & exported into parquet files via Pyspark on AWS EMR, this automated via a AWS Lambda script
-- Cleaned data is returned to S3 bucket
-- Data is registered in Glue Data Catalog with Glue Crawler creating the 
-- Glue ETL job allows data to be accessed via AWS Redshift Spectrum
-- Data is connected to Tableau (BI Tool)
+- The files are uploaded to s3 individually throughtout the day
+- Once the file is present, a lambda function is triggered to begin Glue ETL job
+- During the transformation, the data is aggregated by columns and converted into parquet format to be stored in another s3 bucket
+- The data can be queryed via Athena for analysis 
 
 
 
 ### 1. AWS S3: Data Storage - Create a AWS S3 Bucket & load file
-- [auto_file_s3_uploader](https://github.com/ShalonnIngram/DataEngineering-Portfolio/blob/master/Loan%20Data%20Project/auto_file_s3_uploader.py) to upload files from a specific directory to an S3 bucket
+- Once the data is loaded into s3, the Lambda function is triggered to begin Glue job[Screenshot 2024-05-02 at 6 20 40 PM](https://github.com/ShalonnIngram/Mini-Projects/assets/32176320/23de0bc8-ec6f-4310-9fe8-40f5269fb9dc) to upload files from a specific directory to an S3 bucket
 ![Screen Shot 2021-06-24 at 11 18 03 AM](https://user-images.githubusercontent.com/32176320/123288837-eaf94e00-d4dd-11eb-8477-9a2b0a2761a2.png)
 
 <br>
 
 ### 2. AWS EMR: Data Transformation - PySpark ETL Process
- - Once file is loaded in the S3 bucket, a [AWS Lambda script](https://github.com/ShalonnIngram/DataEngineering-Portfolio/blob/master/Loan%20Data%20Project/trigger_emr_step.py) is triggered which runs the [Pyspark script](https://github.com/ShalonnIngram/DataEngineering-Portfolio/blob/master/Loan%20Data%20Project/loan_data_transformation_script.py) on an EMR cluster for the ETL process. The data is cleaned, transformed into parquet files and returned to the S3 bucket in a `transformed` bucket
+ - Once file is loaded in the S3 bucket, a [ is triggered which runs the [Pyspark script](https://github.com/ShalonnIngram/DataEngineering-Portfolio/blob/master/Loan%20Data%20Project/loan_data_transformation_script.py) on an EMR cluster for the ETL process. The data is cleaned, transformed into parquet files and returned to the S3 bucket in a `transformed` bucket
 
 
 `loan_amnt`: borrower's total loan amount range - ($500 to $40k)\

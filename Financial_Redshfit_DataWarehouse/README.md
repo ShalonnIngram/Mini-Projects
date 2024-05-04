@@ -1,5 +1,6 @@
 # Redshift Data Warehouse - Financial Data
 
+The goal of is process to add financial transactional data from a OLTP to a data warehouse for analysis and visualization. 
 ## Overview
 add overview  - business use cases
 Data Strategy & Planning

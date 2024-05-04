@@ -33,6 +33,11 @@ UPDATE
 
 <br>
 
+classifier 
+
+![Screenshot 2024-05-04 at 4 50 49 PM](https://github.com/ShalonnIngram/Mini-Projects/assets/32176320/bf98975b-3647-4409-8ca4-e496a3119956)
+
+
 ### 2. UPDATE
  `UPDATE` 
 

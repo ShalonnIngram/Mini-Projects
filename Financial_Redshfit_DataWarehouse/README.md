@@ -11,10 +11,9 @@ Data Strategy & Planning
 6. Tech Stack
 7. Backup / Disaster Recovery 
 
-LOGICAL ARCHITECTURE DESIGN
+## LOGICAL ARCHITECTURE DESIGN
 <br>
-
-![Screenshot 2024-05-04 at 1 32 02 PM](https://github.com/ShalonnIngram/Mini-Projects/assets/32176320/191c4b8b-f6de-4e2a-b40a-622395a6c4fa)
+![Screenshot 2024-05-04 at 1 39 36 PM](https://github.com/ShalonnIngram/Mini-Projects/assets/32176320/38eefec9-76e0-4de9-81d9-3b22042a4989)
 
 
 

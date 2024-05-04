@@ -13,6 +13,7 @@ Data Strategy & Planning
 
 ## LOGICAL ARCHITECTURE DESIGN
 <br>
+
 ![Screenshot 2024-05-04 at 1 39 36 PM](https://github.com/ShalonnIngram/Mini-Projects/assets/32176320/38eefec9-76e0-4de9-81d9-3b22042a4989)
 
 

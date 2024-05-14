@@ -1,4 +1,4 @@
-!!!SNOWFLAKE CREATION!!!
+!!!SNOWFLAKE CREATION!!! -- creates user & setup in snowflake for dbt, you will create this in a snowflake worksheet
 
 -- Use an admin role
 USE ROLE ACCOUNTADMIN;
